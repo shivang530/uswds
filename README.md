@@ -45,7 +45,7 @@ Information about the most recent release of the design system can always be fou
 
 ## Getting started
 
-We’re glad you’d like to use the design system — here’s how you can get started:
+We’re glad you’d like to use the design system — here’s how you can get started:-
 
 - Designers: [Check out our Getting Started for Designers information](https://designsystem.digital.gov/getting-started/designers/).
   - [Design files of all the assets included in the design system are available for download](https://github.com/uswds/uswds-assets/archive/master.zip).
@@ -64,7 +64,7 @@ How you implement the design system depends on the needs of your project and you
 
 1. Download the [USWDS zip file](https://github.com/uswds/uswds/releases/download/v2.9.0/uswds-2.9.0.zip) from the latest USWDS release and open that file.
 
-   After extracting the zip file you should see the following file and folder structure:
+   After extracting the zip file you should see the following file and folder structure:-
 
    ```
    uswds-2.9.0/
@@ -138,7 +138,7 @@ And that’s it — you should now be able to copy our code samples into your `i
 
 3. Create a `package.json` file. You can do this manually, but an easier method is to use the `npm init` command. This command will prompt you with a few questions to create your `package.json` file.
 
-4. Add `uswds` to your project’s `package.json`:
+4. Add `uswds` to your project’s `package.json`:-
 
    ```shell
    npm install --save uswds@latest
@@ -168,7 +168,7 @@ The [`uswds-gulp` repo](https://github.com/uswds/uswds-gulp) is made for develop
 
 #### Sass and theme settings
 
-The design system is customizable using the power of [Sass (Syntactically Awesome Style Sheets)](http://sass-lang.com/). The critical files you'll need in your project are those in `dist/scss/theme`:
+The design system is customizable using the power of [Sass (Syntactically Awesome Style Sheets)](http://sass-lang.com/). The critical files you'll need in your project are those in `dist/scss/theme`:-
 
 ```
 scss
@@ -198,7 +198,7 @@ scss
 - `_uswds-theme-utilities.scss`: Utility class output settings
 - `styles.scss`: The primary Sass file that you'll compile. It collects theme settings, USWDS source files, and custom CSS
 
-`styles.scss` looks something like the following code. It adds all the project theme settings, then adds USWDS source, and finally adds your project's custom styles:
+`styles.scss` looks something like the following code. It adds all the project theme settings, then adds USWDS source, and finally adds your project's custom styles:-
 
 ```scss
 @import "uswds-theme-general";
